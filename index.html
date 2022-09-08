@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/&#xf406.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="//db.onlinewebfonts.com/c/7530190cfa46223bb3db0ba0ddde0d37?family=Uber+Move+Medium" rel="stylesheet"
+        type="text/css" />
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/favicon-32x32.png" type="image/x-icon">
+    
+    <title>Uber Clone Website</title>
+</head>
+
+
+<body>
+    
+
+
+    <script>
+        function topcontainerRightFunction() {
+            document.getElementById("featured").style.backgroundImage = "url(img/Rider_home.webp)";
+        }
+
+        function topcontainerLeftFunction() {
+            document.getElementById("featured").style.backgroundImage = "url(img/Earner_Home_bg_desktop2x.webp)";
+            document.getElementById("bottomcontainer");
+            
+        }
+    </script>
+
+
+
+
+
+
+
+
+
+    <header class="scrolling-box">
+        <!-- nav1 start -->
+        <nav class="nav1" id="nav1">
+            <div class="nav1-left">
+                <button class="btn" id="ubr"> Uber</button>
+                <a href="#accessories1"><button class="btn"> Company </button></a>
+                <a href="https://www.uber.com/in/en/safety/"><button class="btn"> Safety</button></a>
+                <button class="btn"> Help</button>
+            </div>
+
+
+            <div class="nav1-mid"></div>
+
+            <div class="nav1-right">
+                <button class="btn"><i class="fa fa-globe"></i> EN</button>
+                <button class="btn"><i class="fa fa-shopping-bag"></i> Products</button>
+                <button class="btn"><i class="fa fa-user"></i> Log in</button>
+                <button class="btn" id="signup"></i> Sign up</button>
+            </div>
+        </nav>
+        <!-- nav1 end -->
+
+
+
+
+        <!-- featured1 start -->
+        <section class="featured" id="featured">
+            <div class="container">
+                <div class="topcontainer">
+                    <div class="topcontainer-right" onclick="topcontainerRightFunction()"></div>
+                    <div class="topcontainer-left" onclick="topcontainerLeftFunction()"></div>
+                </div>
+
+
+                <div class="midcontainer1">
+                    <span> Request a ride now</span>
+                </div>
+
+                <div class="midcontainer2">
+                    <form action="action_page.php">
+                        <div>
+                            <input type="text" id="pickup" name="pickup" placeholder="Enter pickup location">
+                            <br>
+                            <input type="text" id="destination" name="destination" placeholder="Enter destination">
+                        </div>
+                    </form>
+                </div>
+
+                <div class="bottomcontainer" id="bottomcontainer" >
+                    <button id="button1">Request now</button>
+                    <button id="button2">Schedule for later</button>
+                </div>
+
+            </div>
+        </section>
+        <!-- featured1 end -->
+
+
+
+        <!-- featured2 start -->
+        <section class="business" id="business">
+            <div class="box">
+                <span>Uber for business</span>
+                <p>Transform the way your company moves and feeds its people.</p>
+                <a href="https://www.uber.com/in/en/business/"><button>See how</button></a>
+            </div>
+        </section>
+        <!-- featured2 end -->
+
+
+
+
+
+
+        <!-- featured3 start -->
+        <section class="featured3">
+            <div class="featured3-box">
+                Ride with Uber
+            </div>
+        </section>
+
+        <!-- featured3 end -->
+
+
+
+
+
+        <!-- Rides start -->
+        <section class="rides">
+            <div class="upper">
+                <div class="upper-left">
+                    <div class="upper-left-image"></div>
+                    <div class="upper-left-para">
+                        <a href="https://www.uber.com/in/en/ride/uber-auto/">
+                            <h1>Uber Auto</h1>
+                            <p>Get affordable uber rides with no haggling. Request uber auto and ride comfortably around the
+                                city.</p>
+                            <i class="fa fa-arrow-left"></i></a>
+                        
+                    </div>
+                </div>
+
+
+                <div class="upper-right">
+                    <div class="upper-right-image"></div>
+                    <div class="upper-right-para">
+                        <a href="https://www.uber.com/in/en/ride/uber-moto/">
+                            <h1>Uber Moto</h1>
+                            <p>Get affordable bike rides at your doorstep.Skip the crowd and zip through traffic with uber
+                            moto.</p>
+                            <i class="fa fa-arrow-left"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="lower">
+                <div class="lower-left">
+                    <div class="lower-left-image"></div>
+                    <div class="lower-left-para">
+                        <a href="https://www.uber.com/in/en/ride/rentals/">
+                            <h1>Uber Rentals</h1>
+                            <p>Book Rentals to save time with one car and driver for your multi-stop trips</p>
+                            <i class="fa fa-arrow-left"></i>
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="lower-right">
+                    <div class="lower-right-image"></div>
+                    <div class="lower-right-para">
+                        <a href="https://www.uber.com/in/en/ride/intercity/">
+                            <h1>Uber Intercity</h1>
+                            <p>Book intercity to head outstation anytime in convenient and affordable cars.</p>
+                            <i class="fa fa-arrow-left"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- Rides end -->
+
+
+
+
+        <!-- safety slogan start -->
+        <section class="safety">
+            <div class="slogan">
+                <p>Focused on safety, wherever you go</p>
+            </div>
+        </section>
+        <!-- safety end -->
+
+
+
+
+        <!-- safety section start -->
+        <section class="safety-section">
+            <div class="card-left">
+                <div class="card-left-top"></div>
+
+                <div class="card-left-bottom">
+                    <h2>Our commitment to your safety</h2>
+                    <p>With every safety feature and every standard in our Community Guidelines, we're committed to
+                        helping to create a safe environment for our users.</p>
+                    <a href="https://www.uber.com/in/en/safety/uber-community-guidelines/" id="left-button1">Read about our Community Guidelines</a>
+                    <a href="https://www.uber.com/in/en/safety/" id="left-button2">See all safety features</a>
+
+                </div>
+            </div>
+
+
+
+            <div class="card-right">
+                <div class="card-right-top"></div>
+
+                <div class="card-right-bottom">
+                    <h1>Setting 10,000+ cities in motion</h1>
+                    <p>The app is available in thousands of cities worldwide, so you can request a ride even when you’re
+                        far from home.</p>
+                    <a href="https://www.uber.com/global/en/cities/" id="right-button1">View all cities</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- safety section end -->
+
+
+
+
+
+        <!-- information section start -->
+        <section class="information">
+            <div class="block-left">
+                <div class="block-left-top"></div>
+                <div class="block-left-bottom">
+                    <h1>About us</h1>
+                    <p>Find out how we started, what drives us, and how we’re reimagining how the world moves.</p>
+                    <a href="https://www.uber.com/in/en/about/" id="right-button1">Learn more about uber</a>
+                </div>
+            </div>
+
+
+
+            <div class="block-mid">
+                <div class="block-mid-top"></div>
+                <div class="block-mid-bottom">
+                    <h1>Newsroom</h1>
+                    <p>See announcements about our latest releases, initiatives, and partnerships.</p>
+                    <a href="https://www.uber.com/en-IN/newsroom/" id="right-button1">Go to Newsroom</a>
+                </div>
+            </div>
+
+
+
+
+            <div class="block-right">
+                <div class="block-right-top"></div>
+                <div class="block-right-bottom">
+                    <h1>Global citizenship</h1>
+                    <p>Read about our commitment to making a positive impact in the cities we serve.</p>
+                    <a href="https://www.uber.com/in/en/community/" id="right-button1">See our partnerships</a>
+                </div>
+            </div>
+        </section>
+        <!-- information section end -->
+
+
+
+
+
+
+
+        <!-- downloader section start -->
+        <section class="downloader-heading">
+            <div class="downloader-heading-box">
+                <span>There’s more to love in the apps</span>
+            </div>
+        </section>
+
+        <section class="downloader">
+            <div class="downloader-upper">
+                <div class="downloader-upper-left">
+                    <div class="downloader-upper-left-image"></div>
+                    <a href="https://www.apple.com/us/search/uber-driver?src=itunes_serp">
+                        <div class="downloader-upper-left-para">
+                        <h1>Download the driver app</h1>
+                        <i class="fa fa-arrow-left"></i>
+                    </div></a>
+                </div>
+
+
+                <div class="downloader-upper-right">
+                    <div class="downloader-upper-right-image"></div>
+                    <a href="https://apps.apple.com/in/app/uber-request-a-ride/id368677368">
+                        <div class="downloader-upper-right-para">
+                            <h1>Download the uber app</h1>
+                            <i class="fa fa-arrow-left"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="downloader-heading2">
+            <div class="downloader-heading2-box">
+            </div>
+        </section>
+        <!-- <div class="arrow-5"></div> ##################### -->
+
+        <!-- downloader section end -->
+
+
+
+
+
+
+        <!-- signup page start -->
+        <section class="sgnp">
+            <div class="sgnp-div1">
+                <h1>Sign up to drive </h1>
+                <h2>
+                    <div class="arrow-5"></div>
+                </h2>
+            </div>
+            <div class="sgnp-div2">
+                <h1>Sign up to ride</h1>
+                <h2>
+                    <div class="arrow-5"></div>
+                </h2>
+            </div>
+        </section>
+        <!-- signup page end -->
+
+
+        <!-- adding blank spaces start-->
+        <section class="blank1"></section>
+        <section class="blank2"></section>
+        <!-- adding blank spaces end -->
+
+
+
+        <!-- footer1 section start -->
+        <section class="footer">
+            <div class="visitor">
+                <button class="visitor-button1">Uber</button>
+                <br>
+                <button class="visitor-button2">Visit help center</button>
+            </div>
+        </section>
+
+
+        <section class="accessories">
+            <div class="accessories1" id="accessories1">
+                <div class="accessories1-heading">
+                    Company
+                </div>
+                <div class="accessories1-content">
+                    <a href="https://www.uber.com/in/en/about/"><button>About us</button></a>
+                    <br>
+                    <a href="https://www.uber.com/in/en/about/uber-offerings/"><button>Our offerings</button></a>
+                    <br>
+                    <a href="https://www.uber.com/en-IN/newsroom/"><button>Newsrooms</button></a>
+                    <br>
+                    <a href="https://investor.uber.com/home/default.aspx"><button>Investors</button></a>
+                    <br>
+                    <a href="https://www.uber.com/en-IN/blog/"><button>Blog</button></a>
+                    <br>
+                    <a href="https://www.uber.com/in/en/careers/"><button>Carrers</button></a>
+                    <br>
+                    <a href="https://www.uber.com/in/en/uberai/"><button>AI</button></a>
+                    <br>
+                    <a href="https://www.uber.com/in/en/gift-cards/"><button>Gift cards</button></a>
+                    <br>
+                </div>
+            </div>
+
+
+
+            <div class="accessories2">
+                <div class="accessories2-heading">
+                    Products
+                </div>
+                <div class="accessories2-content">
+                    <a href="https://www.uber.com/in/en/ride/"><button>Ride</button></a>
+                    <br>
+                    <a href="https://www.uber.com/in/en/drive/"><button>Drive</button></a>
+                    <br>
+                    <a href="https://www.uber.com/in/en/deliver/"><button>Deliver</button></a>
+                    <br>
+                    <a href="https://www.uber.com/in/en/eat/"><button>Eat</button></a>
+                    <br>
+                    <a href="https://www.uber.com/in/en/business/"><button>Uber for business</button></a>
+                    <br>
+
+                </div>
+            </div>
+
+
+
+
+            <div class="accessories3">
+                <div class="accessories3-heading">
+                    Global citizenship
+                </div>
+                <div class="accessories3-content">
+                    <a href="https://www.uber.com/in/en/safety/"><button>Safety</button></a>
+                    <br>
+                    <a href="https://www.uber.com/in/en/about/diversity/"><button>Diversity and Inclusion</button></a>
+                    <br>
+                </div>
+            </div>
+
+
+
+
+            <div class="accessories4">
+                <div class="accessories4-heading">
+                    Travel
+                </div>
+                <div class="accessories4-content">
+                    <a href="https://www.uber.com/global/en/airports/"><button>Airports</button></a>
+                    <br>
+                    <a href="https://www.uber.com/global/en/cities/"><button>Cities</button></a>
+                    <br>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer1 section end -->
+
+
+
+
+
+
+        <!-- footer2 section start -->
+        <section class="footer2">
+            <div class="footer2-left">
+                <a href="https://www.facebook.com/uber.IND/?brand_redir=120945717945722"><button class="fb"><i class="fa fa-facebook-official"></i></button></a>
+                <a href="https://twitter.com/uber?uclick_id=1e051b3b-baa2-4e4a-8e12-6e8da7d5544c"><button class="twt"><i class="fa fa-twitter"></i></button></a>
+                <a href="https://www.youtube.com/channel/UCgnxoUwDmmyzeigmmcf0hZA"><button class="utu"><i class="fa fa-youtube-play"></i></button></a>
+                <a href="https://www.linkedin.com/uas/login?session_redirect=%2Fcompany%2F1815218%3Fuclick_id%3D1e051b3b-baa2-4e4a-8e12-6e8da7d5544c"><button class="lkn"><i class="fa fa-linkedin-square"></i></button></a>
+                <a href="https://www.instagram.com/uber/?uclick_id=1e051b3b-baa2-4e4a-8e12-6e8da7d5544c"><button class="isg"><i class="fa fa-instagram"></i></button></a>
+            </div>
+
+            <div class="footer2-mid">
+                <a href=""><button class="loc"><i class="fa fa-globe"> English</i></button></a>
+                <a href=""><button class="lang"><i class="fa fa-neuter"> Location</i></button></a>
+            </div>
+
+            <div class="footer2-right">
+                <a href="https://play.google.com/store/search?q=uber&c=apps&hl=en&gl=US"><button class="plystr"></button></a>
+                <a href="https://apps.apple.com/in/app/uber-request-a-ride/id368677368"><button class="appstr"></button></a>
+            </div>
+        </section>
+        <!-- footer2 section end -->
+
+
+
+
+        <!-- copyright section starts -->
+        <section class="copyright">
+            <div class="copyright-left"><button>© 2022 Uber Technologies Inc.</button></div>
+            <div class="copyright-mid"></div>
+            <div class="copyright-right">
+                <a href="https://www.uber.com/legal/en/document/?name=privacy-notice&country=india&lang=en"><button class="copyright-button1">Privacy</button></a>
+                <a href="https://www.uber.com/in/en/about/accessibility/"><button class="copyright-button2">Acessibility</button></a>
+                <a href="https://www.uber.com/legal/en/document/?name=general-terms-of-use&country=india&lang=en"><button class="copyright-button3">Terms</button></a>
+            </div>
+        </section>
+        <!-- copyright section ends -->
+
+
+
+
+
+
+
+        <!-- circle-button starts -->
+        <div class="icon-bar">
+            <a href="#nav1" class="bttn">
+                <button class="icon-bar-button1"></button>
+                <button class="icon-bar-button2"></button>
+            </a>
+        </div>
+        <!-- circle-button ends -->
+
+    </header>
+
+
+
+</body>
+
+</html>
